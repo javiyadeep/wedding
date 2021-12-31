@@ -1,3 +1,4 @@
+/*  Global Css  */
 :root {
     --white: #fff;
     --dark: #1b1b1b;
@@ -9,24 +10,46 @@
     --shizuru-font: 'Shizuru', cursive;
 }
 
+
+/*  Font Sizes  */
 .fs-1 {
     font-size: 10px;
 }
+
 .fs-2 {
-    font-size: 12px;
+    font-size: 12px !important;
 }
+
 .fs-3 {
-    font-size: 14px;
+    font-size: 14px !important;
 }
+
 .fs-4 {
-    font-size: 16px;
+    font-size: 16px !important;
 }
+
 .fs-5 {
-    font-size: 18px;
+    font-size: 18px !important;
 }
+
 .fs-6 {
     font-size: 20px;
 }
+
 .fs-7 {
     font-size: 24px;
+}
+
+.fs-8 {
+    font-size: 30px;
+}
+
+.fs-9 {
+    font-size: 36px;
+}
+
+
+/*  Font Weight  */
+.fw-medium {
+    font-weight: 500;
 }
