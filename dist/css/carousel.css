@@ -1,16 +1,12 @@
-.owl-theme .owl-nav {
+/* .owl-theme .owl-nav {
     display: none;
-}
+} */
 
 .owl-theme .owl-dots {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     right: 30px;
-}
-
-.owl-theme .owl-dots .owl-dot {
-    display: block;
 }
 
 .owl-theme .owl-dots .owl-dot span {
@@ -36,4 +32,36 @@
     .owl-theme .owl-dots .owl-dot {
         display: inline-block;
     }
+}
+
+
+
+#testi .owl-dots {
+
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    transform: unset;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+}
+
+#testi .owl-dots .owl-dot {
+    display: inline-block;
+}
+
+#testi .owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+    border: 3px solid var(--dark);
+    background: transparent;
+    transition: all 0.4s ease-in-out;
+}
+
+#testi .owl-dots .owl-dot.active span {
+    width: 18px;
+    height: 18px;
 }
