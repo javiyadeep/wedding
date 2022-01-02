@@ -59,20 +59,19 @@
     <!-- Header End -->
 
     <!-- Banner Start -->
-    <div class="owl-carousel owl-theme">
-        <div class="item" style="height: 500px !important;">
-            <img src="./dist/images/banner-1.png" class="w-100" alt="">
+    <div class="owl-carousel owl-theme home-banner" id="home-banner">
+        <div class="item" style="max-height: 650px !important;">
+            <img src="./dist/images/banner-4.png" class="w-100" alt="">
         </div>
-        <div class="item" style="height: 500px !important;">
+        <div class="item" style="max-height: 600px !important;">
             <img src="./dist/images/banner-2.png" class="w-100" alt="">
         </div>
-        <div class="item" style="height: 500px !important;">
+        <div class="item" style="max-height: 600px !important;">
             <img src="./dist/images/banner-1.png" class="w-100" alt="">
         </div>
-        <div class="item" style="height: 500px !important;">
-            <img src="./dist/images/banner-2.png" class="w-100" alt="">
+        <div class="item" style="max-height: 600px !important;">
+            <img src="./dist/images/banner-3.png" class="w-100" alt="">
         </div>
-
     </div>
     <!-- Banner End -->
 
@@ -82,9 +81,14 @@
     <script src="./assets/libs/owlcarousel/owl.carousel.js"></script>
     <script>
         $(document).ready(function () {
-            $('.owl-carousel').owlCarousel({
+            $('#home-banner').owlCarousel({
                 loop: true,
-                margin: 10,
+                margin: 0,
+                nav: false,
+                dots: true,
+                autoplay: true,
+                autoplayTimeout: 5500,
+                smartSpeed: 3000,
                 responsiveClass: true,
                 responsive: {
                     0: {

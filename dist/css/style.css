@@ -2,6 +2,7 @@
 /*  Link Other Css Files  */
 /* ================================ */
 @import url("./header.css");
+@import url("./carousel.css");
 @import url("./common.css");
 @import url("./variable.css");
 
