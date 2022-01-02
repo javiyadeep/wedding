@@ -25,7 +25,7 @@
     left: 50%;
     transform: translateX(-50%);
     content: "";
-    width: 50%;
+    width: 70%;
     height: 2px;
     background-color: var(--dark);
     z-index: 998;
@@ -80,4 +80,9 @@
 
 .bridesmaids-img {
     border-radius: 24px;
+}
+
+.about {
+    background: url("../images/about-banner.png") no-repeat;
+    background-size: cover;
 }

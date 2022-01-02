@@ -20,6 +20,10 @@ a {
     padding: 100px 0;
 }
 
+.spacer-lg {
+    padding: 180px 0;
+}
+
 .card {
     border-radius: 4px;
     border: 0;
