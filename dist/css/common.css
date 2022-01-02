@@ -12,6 +12,10 @@ a {
     text-decoration: none;
 }
 
+ul {
+    list-style: none;
+}
+
 .container {
     max-width: 1170px;
 }
@@ -37,6 +41,31 @@ a {
 
 .card-body {
     padding: 30px;
+}
+
+.form-control {
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid var(--white);
+    background: transparent;
+    padding: 6px 0;
+    color: var(--white);
+}
+
+.form-control:focus {
+    background: transparent;
+    box-shadow: none;
+    color: var(--white);
+}
+
+.form-control::placeholder {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+::-webkit-inner-spin-button
+ {
+    -webkit-appearance: none;
+    appearance: none;
 }
 
 .modal-content {
