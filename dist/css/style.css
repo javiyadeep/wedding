@@ -1,6 +1,7 @@
 /* ================================ */
 /*  Link Other Css Files  */
 /* ================================ */
+@import url("./home.css");
 @import url("./header.css");
 @import url("./carousel.css");
 @import url("./common.css");

@@ -1,0 +1,11 @@
+#home-banner {
+    margin-top: 78px;
+}
+
+#home-banner .banner-heading {
+    font-size: 50px;
+}
+
+#home-banner .banner-btn {
+    padding: 14px 66px;
+}

@@ -5,7 +5,7 @@
 }
 
 body {
-   font-family: var(--poppins-font);
+    font-family: var(--poppins-font);
 }
 
 a {
@@ -14,4 +14,25 @@ a {
 
 .container {
     max-width: 1170px;
+}
+
+
+/* ================================ */
+/*  Text  */
+/* ================================ */
+.text-danger {
+    color: var(--danger);
+}
+
+
+/* ================================ */
+/*  Buttons  */
+/* ================================ */
+.btn {
+    border: 0;
+    font-size: 18px;
+}
+
+.btn-danger {
+    background-color: var(--danger);
 }
