@@ -4,7 +4,7 @@ $(document).ready(function () {
         margin: 0,
         nav: false,
         dots: true,
-        autoplay: true,
+        autoplay: false,
         autoplayTimeout: 5500,
         smartSpeed: 3000,
         responsiveClass: true,
