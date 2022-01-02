@@ -1,7 +1,7 @@
-# Air
+# Wedding
 
-|✦| Live demo: https://javiyadeep.github.io/air
+|✦| Live demo: https://javiyadeep.github.io/wedding
 
-|✦| GitHub repository: https://github.com/javiyadeep/air
+|✦| GitHub repository: https://github.com/javiyadeep/wedding
 
 <a href=""><img src="https://i.postimg.cc/zvQvsQZn/wedding.jpg" alt="Air" width="100%" border="0"></a>
