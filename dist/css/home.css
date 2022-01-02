@@ -1,0 +1,66 @@
+#home-banner {
+    margin-top: 78px;
+}
+
+#home-banner .banner-heading {
+    font-size: 50px;
+}
+
+#home-banner .banner-btn {
+    padding: 14px 66px;
+}
+
+.video-play-btn {
+    position: absolute;
+    bottom: -45px;
+    left: 50%;
+    transform: translateX(-50%);
+    left: auto;
+    z-index: 999;
+}
+
+.video-line {
+    position: absolute;
+    bottom: -1px;
+    left: 50%;
+    transform: translateX(-50%);
+    content: "";
+    width: 50%;
+    height: 2px;
+    background-color: var(--dark);
+    z-index: 998;
+}
+
+.our-plane {
+    background: url("../images/ring-background.png") no-repeat;
+    background-size: cover;
+}
+
+.plane-btn {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.our-plane .card-body {
+    transition: all 0.4s ease-in-out;
+}
+
+.our-plane .card-body:hover {
+    color: var(--white);
+}
+
+.plane-btn {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 0.4s ease-in-out;
+    opacity: 0;
+}
+
+.our-plane .card-body:hover .plane-btn {
+    bottom: -15px;
+    opacity: 1;
+}

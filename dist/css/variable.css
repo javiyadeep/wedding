@@ -1,0 +1,73 @@
+/* ================================ */
+/*  Global Css  */
+/* ================================ */
+:root {
+    --white: #fff;
+    --dark: #1b1b1b;
+    --danger: #e6615a;
+    --warning: #f6d88e;
+
+    /* Fonts */
+    --poppins-font: 'Poppins', sans-serif;
+    --shizuru-font: 'Shizuru', cursive;
+}
+
+
+/* ================================ */
+/*  Font Sizes  */
+/* ================================ */
+.fs-1 {
+    font-size: 10px !important;
+}
+
+.fs-2 {
+    font-size: 12px !important;
+}
+
+.fs-3 {
+    font-size: 14px !important;
+}
+
+.fs-4 {
+    font-size: 16px !important;
+}
+
+.fs-5 {
+    font-size: 18px !important;
+}
+
+.fs-6 {
+    font-size: 20px !important;
+}
+
+.fs-7 {
+    font-size: 24px !important;
+}
+
+.fs-8 {
+    font-size: 30px !important;
+}
+
+.fs-9 {
+    font-size: 36px !important;
+}
+
+.fs-10 {
+    font-size: 40px !important;
+}
+
+.fs-11 {
+    font-size: 48px !important;
+}
+
+.fs-12 {
+    font-size: 50px !important;
+}
+
+
+/* ================================ */
+/*  Font Weight  */
+/* ================================ */
+.fw-medium {
+    font-weight: 500;
+}
