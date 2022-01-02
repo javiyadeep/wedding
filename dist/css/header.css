@@ -1,3 +1,15 @@
 .navbar-brand {
     font-weight: 500;
 }
+
+header .navbar-light .navbar-nav .nav-link {
+    color: var(--dark);
+}
+
+header .navbar-light .navbar-nav .nav-link.active {
+    color: var(--danger);
+}
+
+header .nav-link {
+    color: var(--dark);
+}
