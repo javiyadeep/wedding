@@ -9,3 +9,12 @@
 #home-banner .banner-btn {
     padding: 14px 66px;
 }
+
+.video-play-btn {
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    left: auto;
+    z-index: 999;
+}

@@ -16,12 +16,21 @@ a {
     max-width: 1170px;
 }
 
+.modal-content {
+    background-color: rgba(27, 27, 27, 0.9);
+
+}
+
 
 /* ================================ */
 /*  Text  */
 /* ================================ */
 .text-danger {
     color: var(--danger);
+}
+
+.text-dark {
+    color: var(--dark);
 }
 
 
